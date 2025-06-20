@@ -22,11 +22,11 @@ This project is a simple **Stock Management System** developed using **ASP.NET C
 ### 📂 Category Management
 Here is the interface where categories can be added, updated, or deleted:
 
-![Category Screenshot](screenshots/Ekran görüntüsü 2025-06-20 130156.png)
+![Category Screenshot](screenshots/category.png)
 
 ---
 
 ### 📦 Product Management
 This screen allows CRUD operations on products:
 
-![Product Screenshot](screenshots/Ekran görüntüsü 2025-06-20 130305.png)
+![Product Screenshot](screenshots/product.png)
