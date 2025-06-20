@@ -30,3 +30,8 @@ Here is the interface where categories can be added, updated, or deleted:
 This screen allows CRUD operations on products:
 
 ![Product Screenshot](screenshots/product.png)
+
+# Test
+
+![Test](screenshots/category.png)
+
