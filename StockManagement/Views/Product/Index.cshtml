@@ -1,0 +1,43 @@
+﻿@using System.Globalization
+@model IEnumerable<StockManagement.Models.Product>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Ürünler</h1>
+
+<hr />
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Ürün Adı</th>
+                <th>Marka</th>
+                <th>Kategori</th>
+                <th>Fiyat</th>  
+                <th>Stok Adedi</th>
+                <th>İşlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Brand</td>
+                    <td>@item.Category.Name</td>
+                    <td>@string.Format(new CultureInfo("tr-TR"), "{0:C2}", item.Price)</td>
+                    <td>@item.StockQuantity</td>
+                    <td>
+                        <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id" asp-controller="Product">Düzenle</a>
+                        <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id" asp-controller="Product">Sil</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a class="btn btn-primary" asp-action="Create" asp-controller="Product">Yeni Ürün Oluştur</a>
+</div>
+
