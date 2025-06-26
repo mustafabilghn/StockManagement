@@ -2,6 +2,20 @@
 
 This project is a simple **Stock Management System** developed using **ASP.NET Core MVC** and **Entity Framework Core**. It allows users to perform full CRUD (Create, Read, Update, Delete) operations on both products and categories.
 
+## 📸 Screenshots
+
+### 📂 Category Management
+Here is the interface where categories can be added, updated, or deleted:
+
+![Category Screenshot](StockManagement/screenshots/category.png)
+
+---
+
+### 📦 Product Management
+This screen allows CRUD operations on products:
+
+![Product Screenshot](StockManagement/screenshots/product.png)
+
 ## Features
 
 - Add, update, delete, and list categories
@@ -16,17 +30,3 @@ This project is a simple **Stock Management System** developed using **ASP.NET C
 - Entity Framework Core
 - SQL Server 
 - Razor Pages / Views
-
-## 📸 Screenshots
-
-### 📂 Category Management
-Here is the interface where categories can be added, updated, or deleted:
-
-![Category Screenshot](StockManagement/screenshots/category.png)
-
----
-
-### 📦 Product Management
-This screen allows CRUD operations on products:
-
-![Product Screenshot](StockManagement/screenshots/product.png)
